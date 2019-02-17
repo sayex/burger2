@@ -1,0 +1,2 @@
+CREATE Database burgers2 
+

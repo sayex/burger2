@@ -27,7 +27,7 @@ router.post("/api/burgers", function (req, res) {
 
 router.put("/api/burgers/:id", function (req, res) {
     db.Burger.update({
-        burger_name: req.body.name,
+
         devoured: req.body.devour
     },{
         where: {
